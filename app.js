@@ -89,7 +89,7 @@ class TicTacToeGame {
     [2, 4, 6],
   ];
 
-  play() {
+  playNow() {
     this.turn = 1;
     this.winner = null;
     this.squares = this.squareEls.map((el) => new ImageSquare(el, 3));
@@ -143,7 +143,7 @@ initialize();
 
 function initialize() {
   game = new TicTacToeGame(boardEl, msgEl);
-  game.play();
+  game.playNow();
 }
 
 replayBtn.addEventListener("click", initialize);
