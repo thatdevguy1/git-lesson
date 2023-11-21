@@ -14,8 +14,8 @@ class Square {
   }
 
   static renderLookup = {
-    1: "purple",
-    "-1": "orange",
+    1: "yellow",
+    "-1": "red",
     null: "darkgrey",
   };
 
