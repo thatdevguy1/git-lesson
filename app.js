@@ -13,7 +13,7 @@ class Square {
     this.value = null;
   }
 
-  static renderLookUpNew = {
+  static renderLookup = {
     1: "#987efe",
     "-1": "#986fef",
     null: "darkgrey",
